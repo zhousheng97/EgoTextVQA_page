@@ -1,1 +1,1 @@
-# EgoTextVQA_html
+# EgoTextVQA_page
