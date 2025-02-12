@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>EgoTextVQA: Towards Egocentric Scene-Text Aware Video Question Answering</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+  
+<!-- Paper start --> 
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">EgoTextVQA: Towards Egocentric Scene-Text Aware Video Question Answering</h1>
+          <div class="is-size-5 publication-authors">
+            <!-- Paper authors -->
+            <span class="author-block">
+              <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Sheng Zhou</a><sup>1,2</sup>,</span>
+            <span class="author-block">
+              <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Junbin Xiao</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Qingyun Li</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yicong Li</a><sup>1</sup>,</span>  
+            <span class="author-block">
+              <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Xun Yang</a><sup>3</sup>,</span>
+            <span class="author-block">
+              <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Dan Guo</a><sup>2</sup></span>
+            <br>
+            <span class="author-block">
+              <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Meng Wang</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Tat-Seng Chua</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Angela Yao</a><sup>1</sup></span>         
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">National University of Singapore<sup>1</sup>,</span>
+            <span class="author-block">Hefei University of Technology<sup>2</sup></span>
+            <br>
+            <span class="author-block">University of Science and Technology of China<sup>3</sup></span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+                 <!-- Arxiv PDF link -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fas fa-file-pdf"></i>
+                </span>
+                <span>Paper</span>
+              </a>
+              </span>
+
+              <!-- Supplementary PDF link -->
+              <span class="link-block">
+                <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fas fa-file-pdf"></i>
+                </span>
+                <span>Supplementary</span>
+                </a>
+              </span>
+
+              <!-- Github link -->
+              <span class="link-block">
+                <a href="https://github.com/zhousheng97/EgoTextVQA" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Code</span>
+                </a>
+              </span>
+
+              <!-- ArXiv abstract Link -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="ai ai-arxiv"></i>
+                </span>
+                <span>arXiv</span>
+              </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Paper start --> 
+
+  
+<!-- Paper logo --> 
+<section class="section">
+  <div class="container is-max-desktop" style="text-align: center;">
+    <br>
+    <img src="static/images/logo.png">
+  </div>
+</section>
+<!--End paper logo --> 
+
+  
+<!-- Paper abstract -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract -->
+    <h2 class="title is-3" style="text-align: center;">Abstract</h2>
+    <div class="content has-text-justified">
+      <p>
+         We introduce EgoTextVQA, a novel and rigorously constructed benchmark for egocentric QA assistance involving
+            scene text. EgoTextVQA contains 1.5K ego-view videos
+            and 7K scene-text aware questions that reflect real-user
+            needs in outdoor driving and indoor house-keeping activities. 
+            The questions are designed to elicit identification and
+            reasoning on scene text in an egocentric and dynamic environment. 
+            With EgoTextVQA, we comprehensively evaluate 10 prominent multimodal large language models. 
+            Currently, all models struggle, and the best results <i>(Gemini 1.5
+            Pro) </i> are around 33% accuracy, highlighting the severe deficiency of these techniques in egocentric QA assistance. 
+            Our further investigations suggest that precise temporal grounding and multi-frame reasoning, 
+            along with high resolution and auxiliary scene-text inputs, are key for better performance. 
+            With thorough analyses and heuristic suggestions,
+            we hope EgoTextVQA can serve as a solid testbed for research in egocentric scene-text QA assistance. 
+            Our dataset is released at:  
+            <a href=" https://github.com/zhousheng97/EgoTextVQA"> https://github.com/zhousheng97/EgoTextVQA</a>. 
+      </p>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+  
+<!-- Paper EgoTextVQA -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- EgoTextVQA -->
+    <h2 class="title is-3" style="text-align: center;">EgoTextVQA</h2>
+    <div class="content has-text-justified">
+      <p>
+         EgoTextVQA is a novel and rigorously constructed 
+        benchmark for egocentric QA assistance involving 
+        scene text. EgoTextVQA contains 1.5K ego-view 
+        videos and 7K scene-text aware questions that 
+        <b>reflect real-user needs in outdoor driving and indoor 
+        house-keeping activities</b>. The questions 
+        are designed to elicit identification and reasoning 
+        on scene text in an egocentric and dynamic environment. 
+        It consists of two parts: 
+        1) <b>EgoTextVQA-Indoor</b> focuses on the outdoor 
+        scenarios, with 694 videos and 4,848 QA 
+        pairs that may arise when driving; 
+        2) <b>EgoTextVQA-Outdoor</b> emphasizes indoor scenarios, 
+        with 813 videos and 2,216 QA pairs that users 
+        may encounter in house-keeping activities. 
+        There are several unique features of EgoTextVQA. 
+      </p>
+          
+      <ul>
+        <li>It stands out as <b>the first VideoQA testbed towards egocentric scene-text aware QA assistance</b> in the wild, with 7K QAs that reflect diverse user intentions under 1.5K different egocentric visual situations.</li>
+        <li>The QAs emphasize scene text comprehension, but<b> only about half invoke the exact scene text</b>.</li>
+        <li>The situations cover both <b> indoor and outdoor activities</b>.</li>
+        <li>Detailed<b> timestamps and categories of the questions </b>are provided to facilitate <b>real-time QA</b> and model analysis.</li>
+      </ul>
+          
+      <h3 class="title is-4">QA examples of different question categories</h3>
+          <d-figure id="fig-comparison" >
+            <figure>
+                <img data-zoomable="" draggable="false" src="static/images/qa-example.png" alt="benchmark category">
+                <figcaption>
+                    <strong>Figure:</strong> QA examples of different question categories 
+                </figcaption>
+            </figure>
+        </d-figure>
+
+        <h3 class="title is-4">Dataset analysis</h3>
+          <d-figure id="fig-comparison" >
+            <figure>
+                <img data-zoomable="" draggable="false" src="static/images/dataset-analysis.png" alt="benchmark category">
+                <figcaption>
+                    <strong>Figure:</strong> Dataset analysis 
+                </figcaption>
+            </figure>
+        </d-figure>
+
+        <h3 class="title is-4">Dataset comparision</h3>
+          <d-figure id="fig-comparison" >
+            <figure>
+                <img data-zoomable="" draggable="false" src="static/images/dataset-comparision.png" alt="benchmark category">
+                <figcaption>
+                    <strong>Figure:</strong>Dataset comparision 
+                </figcaption>
+            </figure>
+        </d-figure>
+        
+    </div>
+  </div>
+</section>
+<!-- End paper EgoTextVQA -->  
+
+  
+<!-- Dataset Examples -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Dataset Examples -->
+    <h2 class="title is-3" style="text-align: center;">Dataset Examples</h2>
+    <div class="content has-text-justified">
+      
+      <h3 class="title is-4">Examples on EgoTextVQA-Outdoor</h3>
+          <d-figure id="fig-comparison" >
+            <figure>
+                <img data-zoomable="" draggable="false" src="static/images/result-outdoor.png" alt="benchmark category">
+                <figcaption>
+                    <strong>Figure:</strong> Examples on EgoTextVQA-Outdoor 
+                </figcaption>
+            </figure>
+        </d-figure>
+
+        <h3 class="title is-4">Examples on EgoTextVQA-Indoor</h3>
+          <d-figure id="fig-comparison" >
+            <figure>
+                <img data-zoomable="" draggable="false" src="static/images/result-indoor.png" alt="benchmark category">
+                <figcaption>
+                    <strong>Figure:</strong> Examples on EgoTextVQA-Indoor 
+                </figcaption>
+            </figure>
+        </d-figure>
+      
+    </div>
+  </div>
+</section>
+<!--End Dataset Examples -->
+
+  
+<!-- Evaluation Pipeline -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Evaluation Pipeline -->
+    <h2 class="title is-3" style="text-align: center;">Evaluation Pipeline</h2>
+    <div class="content has-text-justified">
+      
+      <h3 class="title is-4">Video Process</h3>
+          <d-figure id="fig-comparison" >
+        </d-figure>
+      <h3 class="title is-4">MLLM QA Prompt</h3>
+          <d-figure id="fig-comparison" >
+        </d-figure>
+      <h3 class="title is-4">Evaluation Prompt</h3>
+          <d-figure id="fig-comparison" >
+        </d-figure>
+      
+    </div>
+  </div>
+</section>
+<!--End Evaluation Pipeline -->
+
+  
+<!-- Experiment Results -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Experiment Results -->
+    <h2 class="title is-3" style="text-align: center;">Experiment Results</h2>
+    <div class="content has-text-justified">
+      
+      <h3 class="title is-4">Evaluation results of MLLMs on EgoTextVQA-Outdoor</h3>
+          <d-figure id="fig-comparison" >
+            <figure>
+                <img data-zoomable="" draggable="false" src="static/images/model-evaluation-1.png" alt="benchmark category">
+                <figcaption>
+                    <strong>Figure:</strong> Evaluation results of MLLMs on EgoTextVQA-Outdoor 
+                </figcaption>
+            </figure>
+        </d-figure>
+
+      <h3 class="title is-4">Evaluation results of MLLMs on EgoTextVQA-Indoor</h3>
+          <d-figure id="fig-comparison" >
+            <figure>
+                <img data-zoomable="" draggable="false" src="static/images/model-evaluation-2.png" alt="benchmark category">
+                <figcaption>
+                    <strong>Figure:</strong> Evaluation results of MLLMs on EgoTextVQA-Indoor 
+                </figcaption>
+            </figure>
+        </d-figure>
+           
+    </div>
+  </div>
+</section>
+<!--End Experiment Results -->
+
+  
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title is-3" style="text-align: center;">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+  
+<!--Acknowledgments -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract -->
+    <h2 class="title is-3" style="text-align: center;">Acknowledgments</h2>
+    <div class="content has-text-justified">
+      <p>
+        We would like to thank the following repos for their great work:    
+      </p>
+      
+      <ul>
+        <li>This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io">Nerfies</a> project page.</li>
+        <li>Our dataset is built upon: <a href=" https://github.com/georg3tom/RoadtextVQA"> RoadTextVQA</a> and <a href=" https://github.com/egoschema/egoschema"> EgoSchema</a>.</li>
+        <li>Our evaluation is built upon: <a href=" https://github.com/mbzuai-oryx/Video-ChatGPT"> VideoChatGPT</a>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!--End Acknowledgments -->
+
+
+  </body>
+  </html>
+ 
